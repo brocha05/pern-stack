@@ -26,7 +26,7 @@ const createTask = async (req, res) => {
   } catch (error) {
     res.json({error: error.message})
   }
-  
+  console.log("prueba")
 };
 
 const deleteTask = async (req, res) => {
